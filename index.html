@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boosrtap import-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <!-- css link-->
+    <link rel="stylesheet" href="./style.css" />
+    <title>QR Menu</title>
+  </head>
+  <body>
+    <!--* baslik-->
+    <h1 class="heading">Menümüz</h1>
+
+    <!--* butonlar-->
+    <div id="buttons" class="d-flex justify-content-center gap-3 my-4">
+
+      <div>
+        <label  for="all">Hepsi</label>
+        <input type="radio" name="cat" id="all" checked/>
+      </div>
+
+      <div>
+        <label  for="breakfast">Kahvalti</label>
+        <input type="radio" name="cat" id="breakfast" />
+      </div>
+
+      <div>
+        <label  for="lunch">Öğle Yemeği</label>
+        <input type="radio" name="cat" id="lunch" />
+      </div>
+
+      <div>
+        <label  for="shakes">İçecekler</label>
+        <input type="radio" name="cat" id="shakes" />
+      </div>
+    </div>
+
+    <!--* menu listesi-->
+    <div id="menu-list">
+      <!-- kart-->
+      <!-- <a 
+        href="#"
+        id="card" 
+        class="d-flex flex-column flex-md-row text-dark gap-3 text-decoration-none">
+            <img 
+            class="rounded shadow img-fluid" 
+            src="./images/item-2.jpeg">
+
+            <div>
+                <div class="d-flex justify-content-between text-capitalize">
+                    <h5>Diner ikili hamburger</h5>
+                    <p class="text-success fw-bold">419.70$</p>
+                </div>
+
+                <p class="lead">
+                    diner usulu hazirlanan ikili hamburgerimiz, enfes lezzeti ive doyurucu yapisiyla lunchniz icin mukemmel bir tercih!
+                </p>
+            </div>
+        </a>  -->
+    </div>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
